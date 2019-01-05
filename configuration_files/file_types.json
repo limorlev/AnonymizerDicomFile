@@ -3,6 +3,10 @@
         "tags_to_anonymize": ["name", "address"],
         "tags_to_use": ["name", "address"]
     },
+    "CR": {
+        "tags_to_anonymize": ["name", "address"],
+        "tags_to_use": ["name", "address"]
+    },
     "MRI": {
         "tags_to_anonymize": ["name", "address"],
         "tags_to_use": ["name", "address"]

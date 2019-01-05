@@ -7,8 +7,8 @@ class ImageFileType:
     def __init__(self):
         self.file_types_configuration = self.get_file_types_configuration()
 
-    def anonymize_blank_value(self, ds_file, tag):
-        ds_file[tag].value = ''
+    def anonymize_blank_value(self, dataset_file, tag):
+        dataset_file[tag].value = ''
 
     @staticmethod
     def get_file_types_configuration():
